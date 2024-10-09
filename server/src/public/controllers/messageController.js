@@ -1,3 +1,5 @@
+const store = require('../db/store')
+
 const addMenssage = (req, res) => {
 
     const user = req.body.user
